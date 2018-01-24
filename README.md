@@ -1,4 +1,6 @@
-![](https://github.com/xiaoshicae/suanhua/tree/master/Doc/spider.jpg) 
+<div align="center">
+  <img src="https://github.com/xiaoshicae/suanhua/tree/master/Doc/spider.jpg"><br><br>
+</div>
 
 Job Script
 ===
@@ -13,7 +15,7 @@ Job Script
 
 ## 目录
     
-* CrawlerGaoYa(临时爬虫需求)
+* ## CrawlerGaoYa(临时爬虫需求)
     * 临时爬虫需求
     * 采用: requests+lxml(请求、解析网页) + redis(消息队列、IP代理) + mongodb(存储结果)
     * 采用execjs动态解析前端js

@@ -5,9 +5,10 @@
 Job Script
 ===
 
-|      **`Linux`**    |    **`Windows`**    |<br>
+|----**`Linux`**---- |---**`Windows`** ---|<br>
 | [![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld) | [![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld) | <br>
 
+简介:
 1. 2017-02-20 至 2018-01-15 期间工作脚本,主要包括爬虫脚本、风险云平台项目(Java)脚本 <br>
 
 2. 爬虫脚本启动需要代理池、因此代码无法立即Work <br>
@@ -24,7 +25,7 @@ Job Script
     * 采用execjs动态解析前端js
     
 * ### DistributeCertificate(执业资格证书分布式爬虫)
-    * 爬取国家人力资源和社会保障部 \(http://zscx.osta.org.cn/\) 信息
+   * 爬取国家人力资源和社会保障部 \(http://zscx.osta.org.cn/\) 信息
     * 采用: 多进程 + requests+lxml(请求、解析网页) + redis(消息队列) + mongodb(存储结果)
     * 验证码采用tesseract-ocr(识别率100%)、tesseract对于扭曲字体识别率较低
     

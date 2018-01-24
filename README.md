@@ -1,4 +1,4 @@
-![](https://github.com/xiaoshicae/suanhua/Doc/spider.jpg) 
+![](https://github.com/xiaoshicae/suanhua/tree/master/Doc/spider.jpg) 
 
 Job Script
 ===
@@ -8,12 +8,10 @@ Job Script
 2017-02-20 至 2018-01-15 期间工作脚本,主要包括爬虫脚本、风险云平台项目(Java)脚本 <br>
 爬虫脚本启动需要代理池、因此代码无法立即Work <br>
 脚本具体技术栈,及代码详解可以参考[博客](http://101.132.152.66/blog "阿里云Blog")  
+
 ---
 
 ## 目录
-* CloudPlatform(风险管理云平台)
-    * demo暂时无法正常work
-    * 采用Spring + doubbox + RabbitMQ + Activiti + Oracle
     
 * CrawlerGaoYa(临时爬虫需求)
     * 临时爬虫需求
@@ -21,7 +19,7 @@ Job Script
     * 采用execjs动态解析前端js
     
 * DistributeCertificate(执业资格证书分布式爬虫)
-    * 爬取国家人力资源和社会保障部(http://zscx.osta.org.cn/)信息
+    * 爬取国家人力资源和社会保障部\(http://zscx.osta.org.cn/\)信息
     * 采用: 多进程 + requests+lxml(请求、解析网页) + redis(消息队列) + mongodb(存储结果)
     * 验证码采用tesseract-ocr(识别率100%)、tesseract对于扭曲字体识别率较低
     

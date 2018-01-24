@@ -1,7 +1,4 @@
-<div align="center">
-  <img src="https://github.com/xiaoshicae/suanhua/Doc/spider.png"><br><br>
-</div>
- ![image](https://github.com/xiaoshicae/suanhua/Doc/spider.png)
+![image](https://github.com/xiaoshicae/suanhua/Doc/spider.png)
 
 Job Script
 ===

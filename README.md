@@ -8,7 +8,7 @@ Job Script
 |  [![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld)  | [![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld)  | <br>
 
 简介:
-1. 2017-02-20 至 2018-01-15 期间工作脚本,主要包括爬虫脚本、风险云平台项目(Java)脚本 <br>
+1. 2017-02-20 至 2018-01-15 期间工作脚本(主要为爬虫脚本) <br>
 
 2. 爬虫脚本启动需要代理池、因此代码无法立即Work <br>
 

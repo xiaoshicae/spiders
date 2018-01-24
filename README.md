@@ -19,7 +19,7 @@ Job Script
     * 采用execjs动态解析前端js
     
 * DistributeCertificate(执业资格证书分布式爬虫)
-    * 爬取国家人力资源和社会保障部\(http://zscx.osta.org.cn/\)信息
+    * 爬取国家人力资源和社会保障部\\(http://zscx.osta.org.cn/\\)信息
     * 采用: 多进程 + requests+lxml(请求、解析网页) + redis(消息队列) + mongodb(存储结果)
     * 验证码采用tesseract-ocr(识别率100%)、tesseract对于扭曲字体识别率较低
     

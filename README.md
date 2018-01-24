@@ -52,6 +52,11 @@ Job Script
     * 采用: nginx(转发到两台生产服务器,实现负载均衡) + Python Flask(启后端服务) +  requests & lxml(请求、解析网页) + redis(IP代理池) 
     * 采用多线程(5个线程,同时爬取),并取最快一组线程结果(牺牲空间换时间,增加了代理和程序运行负担,换取效率提升),实现每秒10个并发目标
     
+* ### FlaskZhiFuBao(支付宝注册情况接口)
+    * 通过支付宝找回密码界面,判断手机号码是否注册支付宝
+    * 分为验证码破解(Keras cnn+rnn模型)、代理池(redis存储)、支付宝爬虫三个子模块
+    * 爬虫采用ChromeWebDriver效率较低、待优化
+    
 * ### ProxyPool(代理池)
     * 通过付费接口请求IP代理,设置过期时间并放入Redis中
     * 采用:crontab(守护代理请求脚本) + Python Flask(启后端服务)+ redis(IP代理池) 

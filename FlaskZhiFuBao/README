@@ -1,0 +1,21 @@
+概要：
+    app 分为独立的三个应用
+
+	1.CaptchaCrack验证码识别
+
+	2.ProxyPool代理IP
+
+	3.ZhifubaoRegisterVerify支付宝注册情况验证
+
+
+
+说明:
+	1.CaptchaCrack & ProxyPool 为独立应用,可供其它程序调用
+
+	2.ZhifubaoRegisterVerify需要调用CaptchaCrack & ProxyPool
+
+
+启动顺序:
+    1. 验证码识别接口(CaptchaCrack) -> 2.1 代理IP接口(ProxyPool)  -> 2.2 代理抓取脚本(先启动redis,再添加crontab监控)
+
+    -> 3.1 支付宝注册验证接口(ZhifubaoRegisterVerify) -> 3.2 UA生成的JAVA脚本

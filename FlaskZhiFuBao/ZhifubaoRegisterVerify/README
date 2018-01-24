@@ -1,0 +1,25 @@
+实时接口:
+    url:  http://127.0.0.1:5000/phone/register/verify/
+
+    参数传递格式:
+          POST
+                {
+                 "serialNum": 请求标识（直接返回）,
+                 "phone": 手机/座机 号码
+                }
+
+返回结果:
+    json 格式数据
+
+    参数说明：
+        get
+            $proxies            ip代理
+            $totalNum           库中可用总数
+
+        getAll
+            $proxiesList          ip代理list
+            $totalNum           库中可用总数
+
+首先配置SpiderId
+接着启动GrabIP程序: 双击grab_monitor.sh
+再启动ProxyPool

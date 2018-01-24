@@ -1,0 +1,21 @@
+实时接口:
+    url:  http://127.0.0.1:5010/captcha/crack/
+
+    参数传递格式:
+        POST json数据:
+            {
+                 "serialNum": 请求序列号(直接返回),
+                 "imgBase64": 图片的base64编码
+             }
+
+返回结果:
+    json 格式数据
+
+    参数说明：
+        $serialNum            序列号
+        $statusCode           0 成功            1 失败
+        $failReason           失败原因
+        $captcha              验证码
+
+首先配置SHOWAPI_APPID & SHOWAPI_SIGN
+再启动CaptchaCrack

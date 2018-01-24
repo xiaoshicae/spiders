@@ -6,7 +6,7 @@ Job Script
 ===
 
 
-|    **`Linux`**     |    **`Windows`**    |<br>
+|----**`Linux`**----|---**`Windows`**---|<br>
 | [![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld) | [![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld) | <br>
 
 简介:
@@ -57,7 +57,7 @@ Job Script
 * ### ProxyPool(代理池)
     * 通过付费接口请求IP代理,设置过期时间并放入Redis中
     * 采用:crontab(守护代理请求脚本) + Python Flask(启后端服务)+ redis(IP代理池) 
-    * crontab守护较为简单、可以优化改为supervisor;
+    * crontab守护较为简单、可以优化改为supervisor
 
 
 ## License

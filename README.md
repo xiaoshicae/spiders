@@ -1,11 +1,12 @@
 <div align="center">
-  <img src="https://github.com/xiaoshicae/suanhua/tree/master/Doc/spider.png"><br><br>
+  <img src="https://github.com/xiaoshicae/suanhua/Doc/spider.png"><br><br>
 </div>
 
 Job Script
 ===
 
-|----**`Linux`**---- |---**`Windows`** ---|<br>
+
+|    **`Linux`**     |    **`Windows`**    |<br>
 | [![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld) | [![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld) | <br>
 
 简介:

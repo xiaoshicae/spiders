@@ -7,7 +7,7 @@ import traceback
 import requests
 from lxml import etree
 from requests.exceptions import Timeout, ReadTimeout, ProxyError, ConnectionError
-from requests.packages.urllib3.exceptions import InsecureRequestWarning
+# from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 
 USER_AGENT_LIST = [
@@ -33,7 +33,7 @@ USER_AGENT_LIST = [
 ]
 
 # 禁用安全请求警告
-requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+# requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 info_logger = logging.getLogger("info_log")
 err_logger = logging.getLogger("err_log")
 detail_logger = logging.getLogger("detail_log")

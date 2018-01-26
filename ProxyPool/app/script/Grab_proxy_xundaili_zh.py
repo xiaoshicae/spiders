@@ -2,7 +2,7 @@ import requests
 import json
 import time
 from threading import Thread
-from RedisClient import RedisClient
+from .RedisClient import RedisClient
 from logconfig import LogConfig
 import logging
 from logging.config import dictConfig

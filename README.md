@@ -4,8 +4,9 @@ Job Script
 ===
 
 
-|----**`Linux`**----|---**`Windows`**---|<br>
-|  [![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld)  | [![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld)  | <br>
+**`Linux`**|**`Windows`**
+:--:|:--:
+[![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld)|[![Travis](https://img.shields.io/travis/gothinkster/realworld.svg)](https://travis-ci.org/gothinkster/realworld)
 
 简介:
 1. 2017-02-20 至 2018-01-15 期间工作脚本(主要为爬虫脚本) <br>
